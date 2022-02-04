@@ -38,7 +38,7 @@ ul li
 li
 {
 	float: right;
-	margin-top: 18px;
+	/* margin-top: 18px; */
 }
 li a
 {
@@ -144,7 +144,7 @@ li a
   display: flex;
   flex-wrap: wrap;
   float: right;
-  margin-right: -140px;
+  /* margin-right: -140px; */
   margin-top: -40px;
 }
 .content1

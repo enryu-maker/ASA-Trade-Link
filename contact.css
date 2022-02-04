@@ -13,14 +13,18 @@ input[type=text], select, textarea {
 .phmail
 {
   float: left;
-  margin-top: 18px;
+  /* margin-top: 18px; */
   color: white;
 }
 .phmail a
 {
   font-size: 18px;
 }
-
+li
+{
+	float: right;
+	/* margin-top: 18px; */
+}
 input[type=submit] {
   background-color: #5a9507;
   color: white;

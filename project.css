@@ -24,6 +24,7 @@ ul li
 {
   font-size: 18px;
   color: white;
+  margin-top: 18px;
 }
 .logo li
 {
@@ -35,10 +36,17 @@ ul li
   padding: 5px;
   padding-right: 100%;
 }
+
+.logo1 img
+{
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+}
 li
 {
 	float: right;
-	margin-top: 18px;
+	/* margin-top: 18px; */
 }
 li a
 {
@@ -74,6 +82,7 @@ li a
     color: #333333;
     font-weight: 400;
     line-height: 24px;
+    margin-top: -60px;
 }
 .categories
 {
@@ -96,6 +105,7 @@ li a
 	text-decoration: none;
 	text-align: center;
   width: auto;
+  margin-top: -20px;
   /* align-self: start; */
 	/* margin-left: 200px; */
 	
@@ -125,53 +135,12 @@ li a
     font-weight: 400;
     line-height: normal;
  }
-.container
-{
-  width: 100%;
-  height: 300px;
-  background-color: whitesmoke;
-  margin: auto;
-}
-.footer
-{
-   background-color: white;
-   padding: 20px 0;
-   height: 40%;
-   flex-direction: column;
-}
-.content
-{
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
-  margin-right: -140px;
-  margin-top: -40px;
-}
-.content1
-{
-  width: 25%;
-  padding: 0 105px;
-  margin-top: 50px;
-}
-
-.content1 h4
-{
-  font-weight: bold;
-  position: absolute;
-  font-size: 25px;
-  
-}
-.content p{
-margin: 0;
-padding: 0;
-margin-top: 65px;
-width: 140px;
-}
+ /*
 .underline-small1
 {
   color: black;
   display: inline-block;
-  position: absolute;
+  position: relative;
 }
 .underline-small1::after
 {
@@ -185,9 +154,10 @@ width: 140px;
 }
 .underline-small2
 {
-  color: black;
-  display: inline-block;
-  position: absolute;
+  width: auto;
+  color: #5a9507;
+  font-size: 42px;
+  margin-left: 30px;
 }
 .underline-small2::after
 {
@@ -215,6 +185,51 @@ width: 140px;
   left: calc(12% - 10%);
   bottom: -5px;
 }
+*/
+.container
+{
+  width: 100%;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: auto;
+}
+
+.footer
+{
+   background-color: white;
+   padding: 20px 0;
+   height: 40%;
+   flex-direction: column;
+}
+.content
+{
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  margin-top: -40px;
+}
+
+.content1
+{
+  width: 25%;
+  padding: 0 105px;
+  margin-top: 50px;
+}
+
+.content1 h4
+{
+  font-weight: bold;
+  position: absolute;
+  font-size: 25px;
+  
+}
+.content p{
+margin: 0;
+padding: 0;
+margin-top: 65px;
+width: 140px;
+}
+
 .box
 {
 	/* float: left; */
@@ -224,6 +239,8 @@ width: 140px;
     text-align: center;
     height: 120px;
 }
+
+
 .button
 {
 	display: inline-block;
@@ -296,7 +313,8 @@ width: 140px;
 }
 .figcaption
 {
-  font-size: 22px;
+  font-size: 28px;
+  font-family: sans-serif;
 }
 .centered-and-cropped
 {
@@ -324,6 +342,7 @@ h4
   /* height: 60px; */
   /* margin-top: 20px; */
 }
+
 @media only screen and (max-width: 700px)
 {
   ul{
@@ -336,7 +355,7 @@ h4
   {
     flex-direction: column-reverse;
     margin: 50px 0;
-    margin-top: 10px;
+    margin-top: -100px;
   }
 .fastfood
 {
@@ -402,6 +421,7 @@ h4
     background: #5a9507;
     text-align: center;
     height: 140px;
+    margin-top: 100px;
 }
 .service{
   /* float: left; */
@@ -419,7 +439,7 @@ h4
   width: 100%;
    background-color: white;
    padding: 20px 0;
-   height: 100%;
+   height: 180%;
 }
 .content
 {
@@ -428,14 +448,14 @@ h4
   flex-wrap: wrap;
   float: left;
   /* margin-right: -140px; */
-  margin-top: -40px;
+  margin-top: -100px;
 }
 .content1
 {
   width: 100%;
   margin: 0%;
   /* padding: 0 10px; */
-  margin-top: 20px;
+  margin-top: -75px;
   /* margin-right: 40px; */
 }
 .figure
@@ -474,8 +494,7 @@ h4
 
 .underline-small1
 {
-  font-size: 22px;
-  margin-left: 10px;
+  font-size: 20px;
   color: #5a9507;
 }
 .mySlides
@@ -517,6 +536,33 @@ h6
   /* margin: 0; */
   font-size: 15px;
   width: 100%;
+}
+.underline-small2
+{
+  color: #5a9507;
+  font-size: 42px;
+  
+}
+.logo1 img
+{
+  margin: 90px;
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+
+}
+.content1 h4
+{
+  font-weight: bold;
+  position: absolute;
+  font-size: 25px;
+  margin-top: 65px;
+}
+.content p{
+margin: 0;
+padding: 18px;
+margin-top: 120px;
+width: 140px;
 }
 }
 

@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet"  href="project.css">
   <link rel="stylesheet" href="contact.css">
+  <script src="./main.js"></script>
 </head>
 <body style="width: auto;">
   <ul class="ulclass">
@@ -23,7 +24,9 @@
 
 <div class="contact1">
 <div class="container">
-  <form action="./mail.php" method="post">
+  <form action="https://formspree.io/mrgjpoqz"
+  method="POST"
+  id="my-form">
     <div class="left">
     <input type="text" id="fname" name="firstname" placeholder="First Name">
 
@@ -50,7 +53,7 @@
     </select>
     </div>
     
-    <textarea id="subject" name="subject" placeholder="Message" style="height:120px"></textarea>
+    <textarea id="message" name="message" placeholder="Message" style="height:120px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
